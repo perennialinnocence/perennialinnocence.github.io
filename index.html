@@ -20,9 +20,9 @@
 
   <input type="file" id="file" />
   <script type="module">
-    import {Archive} from 'libarchivejs/main.js';
+    import {Archive} from './libarchivejs/main.js';
     Archive.init({
-        workerUrl: 'libarchivejs/dist/worker-bundle.js'
+        workerUrl: './libarchivejs/dist/worker-bundle.js'
     });
     console.log(Archive)
     document.getElementById('file').addEventListener('change', async (e) => {

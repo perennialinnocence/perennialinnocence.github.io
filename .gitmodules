@@ -1,0 +1,3 @@
+[submodule "libarchivejs"]
+	path = libarchivejs
+	url = https://github.com/nika-begiashvili/libarchivejs.git

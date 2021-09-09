@@ -24,7 +24,7 @@
     Archive.init({
         workerUrl: 'https://cdn.jsdelivr.net/npm/libarchive.js@1.3.0/dist/worker-bundle.js'
     });
-
+    console.log(Archive)
     document.getElementById('file').addEventListener('change', async (e) => {
         const file = e.currentTarget.files[0];
 
